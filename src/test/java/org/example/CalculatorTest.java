@@ -40,7 +40,7 @@ public class CalculatorTest {
         double mulResult2 = calculator.multiply(10.5,6);
         double mulResult3 = calculator.multiply(5.2,5);
         assertEquals(42,mulResult1,0);
-        assertEquals(13.0,mulResult2,0);
+        assertEquals(63.0,mulResult2,0);
         assertEquals(26.0,mulResult3,0);
     }
 
